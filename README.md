@@ -1,7 +1,5 @@
 # dummy-pub
 public dummy
-TC4: t-write to push to protected master - fail\
-TC5: t-write (maintainer) role to push to protected master - fail \
-TC5: t-write (admin) role to push to protected master - fail \
-
-
+TC4: 'write' role to push to protected master - fail\
+TC5: 'maintainer' role to push to protected master - fail \
+TC6: 'admin' role to push to protected master - succeed
