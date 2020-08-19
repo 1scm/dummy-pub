@@ -2,6 +2,8 @@
 public dummy \
 TC3: 'write" role to create a new branch - succeed\
 TC4: 'write' role to push to protected master - fail\
+TC4A: 'write' role to push to protected master 
+       w/config: enable dismiss review, restrict who can push, allow force pushes
 TC5: 'maintainer' role to push to protected master - fail \
 TC6: 'admin' role to push to protected master - succeed \
 TC7: 'write' role to merge PR - succeed \
